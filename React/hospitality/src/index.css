@@ -1,0 +1,30 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color:#333;
+  font-family: 'Microsoft YaHei';
+  background-color: #fff;
+}
+*{
+  box-sizing: border-box;
+  touch-action: pan-y;
+}
+h1,h2,p,h3,ul,dd{
+  margin: 0;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+html,body,#root,.App{
+  height: 100%;
+}
+/* 解决 找房页面 展示遮罩层后，页面还会滚动的问题 */
+.body-fixed {
+  overflow: hidden;
+}
+.index-Loading{
+  padding-top: 100px;
+  text-align: center;
+}

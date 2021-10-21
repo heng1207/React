@@ -1,0 +1,23 @@
+.bottom{
+    margin-bottom: 20px
+}
+.cancel{
+background-color: #ccc;
+font-size: 25px;
+height: 40px;
+text-align: center;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.confirm{
+background-color: skyblue;
+font-size: 25px;
+height: 40px;
+text-align: center;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
